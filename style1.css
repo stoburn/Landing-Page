@@ -1,0 +1,101 @@
+/* CSS for Landing-Page */
+html, body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.hero {
+	display: flex;
+	padding: 8px;
+	background-color: #21618C;
+   align-items: center; 
+  /* justify-content: center; */
+flex-direction: column;
+height: 600px;
+
+
+
+}
+
+.boof {
+  display:  flex;
+
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+		background-color: #21618C;
+    color: whitesmoke;
+    align-items: center; 
+}
+
+
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.boof ul, a {
+	display: flex;
+	text-decoration: none;
+	color:  whitesmoke;
+	gap: 16px;
+	list-style: none;
+	font-size: 110%;
+	padding: 0;
+	margin: 0;
+}
+
+.herologo  img{
+	display: flex;
+	height: 40px;
+	width: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.infoblocks {
+	display: flex;
+	flex-shrink: 1;
+	width: 80%;
+	  justify-content: space-between;
+	  padding: 0;
+	  margin: 0;
+	  max-height: 400px;
+}
+.leftpara {
+	color: whitesmoke;
+
+}
+
+
+.rightimg {
+	display: flex;
+	border-style: solid;
+	flex-shrink: 1;
+	max-height: 100%;
+	max-width: 100%;
+	align-self: center;
+
+
+}
+
+.rightimg  img{
+	display: block;
+   height: 400px; 
+	width: auto;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+/* come back and fix the messed up stuff above later. */
+
+
+
